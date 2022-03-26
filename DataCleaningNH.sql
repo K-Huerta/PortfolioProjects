@@ -13,7 +13,7 @@ ADD Converted_SalesDate date;
 Update NashvilleHousing
 SET Converted_SalesDate = CONVERT(Date,SaleDate)
 
--- Property Address
+-- Populatin NA values within column Property Address
 
 Select *
 from NashvilleHousing
