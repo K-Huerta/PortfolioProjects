@@ -52,7 +52,7 @@ Substring(PropertyAddress, 1, CHARINDEX(',',PropertyAddress)-1) as Address,
 Substring(PropertyAddress, CHARINDEX(',',PropertyAddress)+1,len(PropertyAddress)) as City
 from NashvilleHousing
 
--- Adress Split
+-- Address Split
 Alter table NashvilleHousing 
 ADD PropertyAddressSplit nvarchar(255);
 
